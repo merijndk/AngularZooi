@@ -1,0 +1,10 @@
+<aside doeIets>
+      <h1>Hypo Soft</h1>
+      <h2>TOOLS</h2>
+      <ul>
+          <li *ngFor="let value of menuArray" class="menuitem"><a href="#" (click)="isActive(value.id)">{{value.name}}</a></li>
+      </ul>
+      <h2>USER INPUT</h2>
+    </aside>
+    <slider active="{{active}}" waarde="{{waarde}}"></slider>
+    
